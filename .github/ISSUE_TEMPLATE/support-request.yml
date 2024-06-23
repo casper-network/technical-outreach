@@ -50,6 +50,8 @@ body:
         - Integration-Test
         - Testnet
         - Mainnet        
+        - NCTL/Localnet
+        - Other        
     validations:
       required: true
   - type: dropdown
@@ -63,6 +65,7 @@ body:
         - High
         - Critical
         - Blocking/Most Urgent
+        - Other
     validations:
       required: true
   - type: dropdown
